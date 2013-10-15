@@ -46,6 +46,7 @@ Copy "example.env" and name the it ".env". Specify all configurations in there a
 ### Additional configuration options
 
 * **authentication** - if you want to lock down the site behind a simple authentication screen to avoid unwanted eyes on it - then specify a username and if you like a password and those will be required to access the site.
+* **theme** - if you want to add a different theme to the same repository, then specify the name of it here.
 
 ## How to run
 
