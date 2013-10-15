@@ -1,0 +1,24 @@
+{
+  "name": "tweetstream-demo",
+  "description": "An app to demo the vptweetstream node module",
+  "version": "0.1.0",
+  "author": {
+    "name": "Pelle Wessman",
+    "email": "pelle@kodfabrik.se",
+    "url": "http://kodfabrik.se/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.4.0",
+    "longpollingbuffer": "git://github.com/voxpelli/node-longpollingbuffer.git#master",
+    "vptweetstream": "~0.3.5"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "main": "./lib/main",
+  "directories": {
+    "lib": "./lib"
+  },
+  "private": true
+}
