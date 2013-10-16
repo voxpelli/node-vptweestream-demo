@@ -12,6 +12,8 @@ Run `npm install` once you have got hold of the code
 
 **OAuth**-credentials: To get them register a Twitter app on https://dev.twitter.com/apps and when you've done so you can get a token for yourself from the configuration page.
 
+Note: You can only use the same OAuth credentials in one livestream at a time. Twitter will close all existing connections on a new connection. It's a feature.
+
 Then in lib/config.js change:
 
 ```javascript
